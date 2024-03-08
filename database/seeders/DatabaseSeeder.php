@@ -21,8 +21,8 @@ class DatabaseSeeder extends Seeder
         User::factory()->create([
             'name' => 'Shivang',
             'role' => 'user',
-            'email' => 'harshsaini5656@gmail.com',
-            'img' => '1709361193_original.jpeg'
+            'email' => 'user@mail.com',
+            'img' => '1709361193_original.jpg'
         ]);
 
         User::factory()->create([
